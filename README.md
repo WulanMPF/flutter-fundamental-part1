@@ -186,60 +186,310 @@ Lakukan hal yang sama pada file README.md mulai dari Langkah 4. Setelah berhasil
 ### Langkah 10
 Lakukan push juga untuk semua file lainnya dengan pilih Stage All Changes. Beri pesan commit "project hello_world". Maka akan tampil di repository GitHub Anda seperti berikut.
 
+![Langkah 10](/images/p3_langkah10.png)
+
 ### Langkah 11
 Kembali ke VS Code, ubah platform di pojok kanan bawah ke emulator atau device atau bisa juga menggunakan browser Chrome. Lalu coba running project hello_world dengan tekan F5 atau Run > Start Debugging. Tunggu proses kompilasi hingga selesai, maka aplikasi flutter pertama Anda akan tampil seperti berikut.
 
+![Langkah 11](/images/p3_langkah11.png)
+
 ### Langkah 12
 Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam aplikasi berupa nama lengkap Anda. Simpan file screenshot dengan nama 01.png pada folder images (buat folder baru jika belum ada) di project hello_world Anda. Lalu ubah isi README.md seperti berikut, sehingga tampil hasil screenshot pada file README.md. Kemudian push ke repository Anda.
+
+![Langkah 12](/images/01.png)
 
 ## PRAKTIKUM 4
 ### Langkah 1: Text Widget
 Buat folder baru basic_widgets di dalam folder lib. Kemudian buat file baru di dalam basic_widgets dengan nama text_widget.dart. Ketik atau salin kode program berikut ke project hello_world Anda pada file text_widget.dart.
 
+![Langkah 1](/images/p4_langkah1a.png)
+
 Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget dengan kode di atas. Maka hasilnya seperti gambar berikut. Screenshot hasil milik Anda, lalu dibuat laporan pada file README.md.
+
+![Langkah 1](/images/p4_langkah1b.png)
 
 ### Langkah 2: Image Widget
 Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode berikut.
 
+![Langkah 2](/images/p4_langkah2a.png)
+
 Lakukan penyesuaian asset pada file pubspec.yaml dan tambahkan file logo Anda di folder assets project hello_world.
 
+![Langkah 2](/images/p4_langkah2b.png)
+
 Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
+
+![Langkah 2](/images/p4_langkah2c.png)
 
 ## PRAKTIKUM 5
 ### Langkah 1: Cupertino Button dan Loading Bar
 Buat file di basic_widgets > loading_cupertino.dart. Import stateless widget dari material dan cupertino. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
+
+![Langkah 1](/images/p5_langkah1a.png)
+
+![Langkah 1](/images/p5_langkah1b.png)
+
+*When Click The Button:*
+
+![Langkah 1](/images/p5_langkah1c.png)
 
 ### Langkah 2: Floating Action Button (FAB)
 Button widget terdapat beberapa macam pada flutter yaitu ButtonBar, DropdownButton, TextButton, FloatingActionButton, IconButton, OutlineButton, PopupMenuButton, dan ElevatedButton.
 
 Buat file di basic_widgets > fab_widget.dart. Import stateless widget dari material. Lalu isi kode di dalam method Widget build adalah sebagai berikut.
 
+![Langkah 2](/images/p5_langkah2a.png)
+
+![Langkah 2](/images/p5_langkah2b.png)
+
+*When Click The Button:*
+
+![Langkah 2](/images/p5_langkah2c.png)
+
 ### Langkah 3: Scaffold Widget
 Scaffold widget digunakan untuk mengatur tata letak sesuai dengan material design.
 
 Ubah isi kode main.dart seperti berikut.
+
+![Langkah 3](/images/p5_langkah3a.png)
+
+![Langkah 3](/images/p5_langkah3b.png)
+
+![Langkah 3](/images/p5_langkah3c.png)
+
+*When Hover The Button:*
+
+![Langkah 3](/images/p5_langkah3d.png)
+
+*When Click The Button Once:*
+
+![Langkah 3](/images/p5_langkah3e.png)
 
 ### Langkah 4: Dialog Widget
 Dialog widget pada flutter memiliki dua jenis dialog yaitu AlertDialog dan SimpleDialog.
 
 Ubah isi kode main.dart seperti berikut.
 
+![Langkah 4](/images/p5_langkah4a.png)
+
+*When Click The Button:*
+
+![Langkah 4](/images/p5_langkah4b.png)
+
 ### Langkah 5: Input dan Selection Widget
 Flutter menyediakan widget yang dapat menerima input dari pengguna aplikasi yaitu antara lain Checkbox, Date and Time Pickers, Radio Button, Slider, Switch, TextField.
 
 Contoh penggunaan TextField widget adalah sebagai berikut:
 
+![Langkah 5](/images/p5_langkah5a.png)
+
+*When Fill The TextField:*
+
+![Langkah 5](/images/p5_langkah5b.png)
+
 ### Langkah 6: Date and Time Pickers
 Date and Time Pickers termasuk pada kategori input dan selection widget, berikut adalah contoh penggunaan Date and Time Pickers.
+
+![Langkah 6](/images/p5_langkah6a.png)
+
+*When Click The Button:*
+
+![Langkah 6](/images/p5_langkah6b.png)
+
+*When Pick The Date:*
+
+![Langkah 6](/images/p5_langkah6c.png)
 
 ## TUGAS PRAKTIKUM
 ### 1. Selesaikan Praktikum 1 sampai 5, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md!
 
 ### 2. Selesaikan Praktikum 2 dan Anda wajib menjalankan aplikasi hello_world pada perangkat fisik (device Android/iOS) agar Anda mempunyai pengalaman untuk menghubungkan ke perangkat fisik. Capture hasil aplikasi di perangkat, lalu buatlah laporan praktikum pada file README.md.
 
+Hasil Praktikum 5 Langkah 6 (Date and Time Pickers) pada device Android:
+
+![Tugas 2](/images/tgs_no2a.jpg)
+
+![Tugas 2](/images/tgs_no2b.jpg)
+
+![Tugas 2](/images/tgs_no2c.jpg)
+
+![Tugas 2](/images/tgs_no2d.jpg)
+
 ### 3. Pada praktikum 5 mulai dari Langkah 3 sampai 6, buatlah file widget tersendiri di folder basic_widgets, kemudian pada file main.dart cukup melakukan import widget sesuai masing-masing langkah tersebut!
 
 ### 4. Selesaikan Codelabs: Your first Flutter app, lalu buatlah laporan praktikumnya dan push ke repository GitHub Anda!
+
+#### Make new project, and name your project something like namer_app or my_awesome_namer.
+
+![Tugas 4](/images/tgs_no4a.png)
+
+#### In the left pane of VS Code, make sure that Explorer is selected, and open the pubspec.yaml file. Replace the contents of this file with the following:
+
+![Tugas 4](/images/tgs_no4b.png)
+
+#### Next, open another configuration file in the project, analysis_options.yaml. Replace its contents with the following:
+
+![Tugas 4](/images/tgs_no4c.png)
+
+#### Finally, open the main.dart file under the lib/ directory. Replace the contents of this file with the following:
+
+![Tugas 4](/images/tgs_no4d.png)
+
+#### Launch the app. First, open lib/main.dart and make sure that you have your target device selected. At the bottom right corner of VS Code, you'll find a button that shows the current target device. Click to change it. While lib/main.dart is open, find the "play" button in the upper right-hand corner of VS Code's window, and click it. After about a minute, your app launches in debug mode. It doesn't look like much yet
+
+![Tugas 4](/images/tgs_no4e.png)
+
+#### First Hot Reload. At the bottom of lib/main.dart, add something to the string in the first Text object, and save the file (with Ctrl+S or Cmd+S). For example:
+
+![Tugas 4](/images/tgs_no4f.png)
+
+#### Adding a button. Next, add a button at the bottom of the Column, right below the second Text instance.
+
+![Tugas 4](/images/tgs_no4g.png)
+
+#### A Flutter crash course in 5 minutes. As much fun as it is to watch the Debug Console, you want the button to do something more meaningful. Before getting to that, though, take a closer look at the code in lib/main.dart, to understand how it works. At the very top of the file, you'll find the main() function. In its current form, it only tells Flutter to run the app defined in MyApp.
+
+![Tugas 4](/images/tgs_no4h.png)
+
+#### The MyApp class extends StatelessWidget. Widgets are the elements from which you build every Flutter app. As you can see, even the app itself is a widget. The code in MyApp sets up the whole app. It creates the app-wide state (more on this later), names the app, defines the visual theme, and sets the "home" widget—the starting point of your app.
+
+![Tugas 4](/images/tgs_no4i.png)
+
+#### Next, the MyAppState class defines the app's...well...state. This is your first foray into Flutter, so this codelab will keep it simple and focused. There are many powerful ways to manage app state in Flutter. One of the easiest to explain is ChangeNotifier, the approach taken by this app.
+
+![Tugas 4](/images/tgs_no4j.png)
+
+#### Your first behavior. Scroll to MyAppState and add a getNext method.
+
+![Tugas 4](/images/tgs_no4k.png)
+
+#### All that remains is to call the getNext method from the button's callback.
+
+![Tugas 4](/images/tgs_no4l.png)
+
+#### Extract a widget. For that reason, rewrite the MyHomePage widget as follows:
+
+![Tugas 4](/images/tgs_no4m.png)
+
+#### Now, call up the Refactor menu. Right click the piece of code you want to refactor (Text in this case) and select Refactor... from the drop-down menu
+
+![Tugas 4](/images/tgs_no4n.png)
+
+#### In the Refactor menu, select Extract Widget. Assign a name, such as BigCard, and click Enter.
+
+![Tugas 4](/images/tgs_no4o.png)
+
+#### This automatically creates a new class, BigCard, at the end of the current file. The class looks something like the following:
+
+![Tugas 4](/images/tgs_no4p.png)
+
+#### Add a Card. Instead, select Wrap with Padding. This creates a new parent widget around the Text widget called Padding. After saving, you'll see that the random word already has more breathing room.
+
+![Tugas 4](/images/tgs_no4q.png)
+
+#### Next, go one level higher. Place your cursor on the Padding widget, pull up the Refactor menu, and select Wrap with widget.... This allows you to specify the parent widget. Type "Card" and press Enter.
+
+![Tugas 4](/images/tgs_no4r.png)
+
+#### This wraps the Padding widget, and therefore also the Text, with a Card widget.
+
+![Tugas 4](/images/tgs_no4s.png)
+
+*When Click The Button:*
+
+![Tugas 4](/images/tgs_no4t.png)
+
+#### Theme and style. Make the following changes to BigCard's build() method.
+
+![Tugas 4](/images/tgs_no4u.png)
+
+#### TextTheme. The card still has a problem: the text is too small and its color is hard to read. To fix this, make the following changes to BigCard's build() method.
+
+![Tugas 4](/images/tgs_no4v.png)
+
+#### Improve accessibility. Use Text's semanticsLabel property to override the visual content of the text widget with a semantic content that is more appropriate for screen readers:
+
+![Tugas 4](/images/tgs_no4w.png)
+
+#### Center the UI. First, remember that BigCard is part of a Column. By default, columns lump their children to the top, but we can easily override this. Go to MyHomePage's build() method, and make the following change:
+
+![Tugas 4](/images/tgs_no4x.png)
+
+#### You can just center the column itself. Put your cursor onto Column, call up the Refactor menu (with Ctrl+. or Cmd+.), and select Wrap with Center.
+
+![Tugas 4](/images/tgs_no4y.png)
+
+#### With the optional changes, MyHomePage contains this code:
+
+![Tugas 4](/images/tgs_no4z.png)
+
+#### Add the business logic
+
+![Tugas 4](/images/tgs_no4z1.png)
+
+#### Add the button
+
+![Tugas 4](/images/tgs_no4z2.png)
+
+#### Here's one way to add the second button to MyHomePage
+
+![Tugas 4](/images/tgs_no4z3.png)
+
+*When Click The Button:*
+
+![Tugas 4](/images/tgs_no4z4.png)
+
+#### Select all of MyHomePage, delete it, and replace with the following code:
+
+![Tugas 4](/images/tgs_no4z5.png)
+
+#### You can change the extended: false line in NavigationRail to true. This shows the labels next to the icons. In a future step, you will learn how to do this automatically when the app has enough horizontal space.
+
+![Tugas 4](/images/tgs_no4z6.png)
+
+#### Stateless versus stateful widgets. Place your cursor on the first line of MyHomePage (the one that starts with class MyHomePage...), and call up the Refactor menu using Ctrl+. or Cmd+.. Then, select Convert to StatefulWidget.
+
+![Tugas 4](/images/tgs_no4z7.png)
+
+#### setState. The new stateful widget only needs to track one variable: selectedIndex. Make the following 3 changes to _MyHomePageState:
+
+![Tugas 4](/images/tgs_no4z8.png)
+
+*When Click The Favourites Bar:*
+
+![Tugas 4](/images/tgs_no4z9.png)
+
+#### Use selectedIndex. Place the following code at the top of _MyHomePageState's build method, just before return Scaffold:
+
+![Tugas 4](/images/tgs_no4z10.png)
+
+#### Here's _MyHomePageState after that single remaining change:
+
+![Tugas 4](/images/tgs_no4z11.png)
+
+*When Click The Favourites Bar:*
+
+![Tugas 4](/images/tgs_no4z12.png)
+
+#### Responsiveness. Inside _MyHomePageState's build method, put your cursor on Scaffold. Next, Call up the Refactor menu with Ctrl+. (Windows/Linux) or Cmd+. (Mac). Next, Select Wrap with Builder and press Enter. Next, Modify the name of the newly added Builder to LayoutBuilder. Last, Modify the callback parameter list from (context) to (context, constraints).
+
+![Tugas 4](/images/tgs_no4z13.png)
+
+#### Now your code can decide whether to show the label by querying the current constraints. Make the following single-line change to _MyHomePageState's build method:
+
+![Tugas 4](/images/tgs_no4z14.png)
+
+*When Changing The Screen Size:*
+
+![Tugas 4](/images/tgs_no4z15.png)
+
+#### Add New Page. Here's the new FavoritesPage class:
+
+![Tugas 4](/images/tgs_no4z16.png)
+
+*When Click The Like Button & Favourites Bar:*
+
+![Tugas 4](/images/tgs_no4z17.png)
 
 ### 5. README.md berisi: capture hasil akhir tiap praktikum (side-by-side, bisa juga berupa file GIF agar terlihat proses perubahan ketika ada aksi dari pengguna) dengan menampilkan NIM dan Nama Anda sebagai ciri pekerjaan Anda.
 
